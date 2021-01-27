@@ -1,0 +1,45 @@
+.sidenav {
+    height: 100%; 
+    width: 100px; 
+    position: fixed;
+    z-index: 1; 
+    top: 100px;
+  }
+  
+  .body1 {
+      position: fixed;
+      top: 100px;
+      left: 230px;
+  }
+
+  .body2 {
+      position: fixed;
+      top: 100px;
+  }
+
+  .body3 {
+    position: relative;
+}
+
+  .navbar {
+    padding: 10px;
+    background: #159e10;
+  }
+  
+  .navbar li {
+    padding: 10px;
+    display: inline-block;
+    position: static;
+    cursor: pointer;
+    margin-right: 30px;
+    background: #fff;
+  }
+  
+  .navbar li a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .navbar li:hover{
+    background-color: gray;
+  }
